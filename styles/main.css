@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background-color: #f4ab19;
+  color: #d83030;
+}
+
+/* img {
+  width: 100%;
+} */

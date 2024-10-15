@@ -9,6 +9,12 @@
   scroll-behavior: smooth;
 }
 
+body {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
 a {
   color: inherit;
   cursor: pointer;
@@ -22,3 +28,82 @@ a {
 /* img {
   width: 100%;
 } */
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.features {
+  text-align: center;
+  padding: 170px 0;
+}
+.title {
+  color: rgb(61, 79, 159);
+  font-weight: 500;
+}
+.title h2 {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.title p {
+  font-size: 24px;
+  margin-bottom: 92px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 67px;
+  margin: 0 auto;
+  max-width: 761px;
+}
+.cards__item {
+  width: 140px;
+  margin-bottom: 92px;
+}
+.cards__img {
+  margin-bottom: 33px;
+}
+.cards__title {
+  color: rgb(64, 116, 248);
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+.cards__text {
+  color: rgb(173, 179, 203);
+  font-size: 11px;
+  font-weight: 500;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 111px;
+  max-width: 337px;
+  margin: 0px auto 172px;
+  flex-wrap: wrap;
+}
+
+.buttons a {
+  width: 113px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  padding: 13px;
+  align-items: center;
+
+}
+.buttons__readmore {
+  background: rgb(255, 215, 215);
+  color: rgb(212, 63, 63);  
+}
+.buttons__getstarted {
+  background: rgb(210, 225, 255);
+  color: rgb(58, 121, 255);
+
+}
